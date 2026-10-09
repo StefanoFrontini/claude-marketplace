@@ -9,13 +9,6 @@
   },
   "plugins": [
     {
-      "name": "esempio",
-      "source": "./plugins/esempio",
-      "description": "Plugin di esempio: una skill e un comando slash da usare come modello",
-      "version": "0.1.0",
-      "category": "productivity"
-    },
-    {
       "name": "commit-commands",
       "source": {
         "source": "git-subdir",
