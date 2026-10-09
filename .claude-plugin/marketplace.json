@@ -1,0 +1,19 @@
+{
+  "name": "stefanofrontini-plugins",
+  "owner": {
+    "name": "Stefano Frontini",
+    "url": "https://github.com/StefanoFrontini"
+  },
+  "metadata": {
+    "description": "Plugin per Claude Code di Stefano Frontini"
+  },
+  "plugins": [
+    {
+      "name": "esempio",
+      "source": "./plugins/esempio",
+      "description": "Plugin di esempio: una skill e un comando slash da usare come modello",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}
