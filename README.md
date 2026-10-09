@@ -7,6 +7,7 @@ Marketplace di plugin per [Claude Code](https://code.claude.com) di Stefano Fron
 ```
 /plugin marketplace add StefanoFrontini/claude-marketplace
 /plugin install esempio@stefanofrontini-plugins
+/plugin install commit-commands@stefanofrontini-plugins
 ```
 
 Per aggiornare: `/plugin marketplace update stefanofrontini-plugins`.
@@ -16,6 +17,7 @@ Per aggiornare: `/plugin marketplace update stefanofrontini-plugins`.
 | Plugin | Descrizione |
 |---|---|
 | [esempio](plugins/esempio) | Skill e comando slash di esempio |
+| [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands) | `/commit`, `/commit-push-pr`, `/clean_gone` per il workflow git (di Anthropic, Apache-2.0, referenziato dalla sorgente originale) |
 
 ## Aggiungere un plugin
 
